@@ -3,6 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: antiquewhite;
 }
 
 h2 {
@@ -32,9 +33,16 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    border-radius: 20px;
     margin-inline: 200px;
     gap: 50px;
+}
+
+.text_box {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
 }
 
 .personal {
@@ -47,11 +55,9 @@ h2 {
 .desc {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-inline: 300px;
-    gap: 800px;
+    justify-content: space-between;
+    margin-inline: 500px;
+    gap: 300px;
 }
 
 .footer {
@@ -66,7 +72,8 @@ h2 {
 }
 
 .face_img {
-    width: 900px;
+    border-radius: 40px;
+    width: 600px;
     height: auto;
 }
 
