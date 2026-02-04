@@ -1,4 +1,5 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,6 +54,12 @@ h2 {
     gap: 800px;
 }
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
 .logo {
     width: 400px;
     height: auto;
@@ -62,3 +69,9 @@ h2 {
     width: 900px;
     height: auto;
 }
+
+.footer_logo {
+    width: 200px;
+    height: auto;
+}
+
